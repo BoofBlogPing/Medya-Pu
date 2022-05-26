@@ -1,0 +1,38 @@
+{
+    "name": "DejavuMediaBot",
+    "description": "Media fayllarınız üçün Teleqraf bağlantıları yaratmaq üçün güclü Telegram botu. Bu bot qrup çatlarında da işləyə bilər.",
+    "repository": "https://github.com/BoofBlogPing/Medya-Pu",
+    "keywords": [
+        "telegraph",
+        "telegraph link",
+        "generate telegraph links",
+        "media to telegraph link",
+        "telegram bot to generate telegraph links",
+        "bot to upload media to telegraph",
+        "Telegram bot",
+        "Pyrogram bot"
+         ],
+
+     "env": {
+        "API_ID": {
+            "description": "my.telegram.org/apps saytından əldə edin."
+        },
+        "API_HASH": {
+            "description": "my.telegram.org/apps saytından əldə edin."
+        },
+        "BOT_TOKEN": {
+            "description": "Telegram-ın @BotFather-dən alın."
+        }
+    },
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
